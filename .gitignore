@@ -1,0 +1,25 @@
+# ── SO ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Ambiente / segredos (NUNCA versionar) ───────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.p8
+*.pfx
+
+# ── Trabalho local ──────────────────────────────────────────────────
+tmp/
+*.zip
+CLAUDE.local.md
+.claude/settings.local.json
+
+# ── Editor ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp

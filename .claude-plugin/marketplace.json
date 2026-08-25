@@ -1,0 +1,17 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "skill-RESUME",
+  "description": "Structure-first output contract for Claude Code. Status line, numbered comments, what is left, one next action. Filler removal optional and off by default.",
+  "owner": {
+    "name": "Samir Hanna Verza",
+    "url": "https://github.com/samirhvbr"
+  },
+  "plugins": [
+    {
+      "name": "resume",
+      "description": "Every answer in the same shape: where we are, what is left, what to do next. Compression optional, off by default, four levels.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

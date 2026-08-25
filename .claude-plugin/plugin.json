@@ -1,0 +1,19 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "description": "Structure-first output: status line on line 1 (DONE / IN PROGRESS / BLOCKED), numbered subjects and comments, WHAT NEEDS TO BE DONE, and one NEXT ACTION. Lists and nesting are never capped, code and error text stay verbatim. Filler removal is optional and off by default, with four levels.",
+  "author": {
+    "name": "Samir Hanna Verza",
+    "url": "https://github.com/samirhvbr"
+  },
+  "homepage": "https://github.com/samirhvbr/skill-RESUME",
+  "repository": "https://github.com/samirhvbr/skill-RESUME",
+  "license": "MIT",
+  "keywords": [
+    "output-style",
+    "structure",
+    "productivity",
+    "state-tracking",
+    "token-efficiency"
+  ]
+}
