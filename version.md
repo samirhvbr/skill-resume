@@ -1,6 +1,6 @@
 # Versão — skill-RESUME
 
-**Versão atual:** `0.1.0`
+**Versão atual:** `0.1.1`
 
 > Este arquivo é a **fonte da verdade** da versão do projeto. Qualquer lugar que
 > precise exibir ou reportar a versão extrai o **primeiro número semver (`X.Y.Z`)**
@@ -63,6 +63,20 @@ mesma entrega repetem a versão sem novo bump.
 ## 3. Changelog
 
 > Ordem decrescente (mais recente no topo).
+
+### `0.1.1` — 2026-09-02 — Releases automaticas: o version.md da master vira tag e Release
+
+O GitHub nao deduz versao de mensagem de commit: sem tag, o numero e string no
+`git log` e `git diff` entre versoes nao existe. Entram o
+`.github/workflows/release.yml` e o `tools/release.sh`.
+
+**A regra:** o `version.md` da branch padrao **no GitHub** e o que as Releases
+**no GitHub** refletem. Checkout local nao entra na conta. Um PR nao publica
+nada; no merge, o push do `version.md` dispara o workflow e a Release vira
+aquela versao.
+
+Tag e titulo = a versao pura, sem prefixo `v`. Norma:
+[samirhvbr/repodocs](https://github.com/samirhvbr/repodocs/blob/master/docs/versioning.md).
 
 ### `0.1.0` — 2026-08-25 — Baseline: a skill, o contrato de saída e a documentação da casa
 
