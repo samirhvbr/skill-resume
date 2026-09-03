@@ -1,6 +1,6 @@
 # Versão — skill-RESUME
 
-**Versão atual:** `0.1.2`
+**Versão atual:** `0.1.3`
 
 > Este arquivo é a **fonte da verdade** da versão do projeto. Qualquer lugar que
 > precise exibir ou reportar a versão extrai o **primeiro número semver (`X.Y.Z`)**
@@ -63,6 +63,19 @@ mesma entrega repetem a versão sem novo bump.
 ## 3. Changelog
 
 > Ordem decrescente (mais recente no topo).
+
+### `0.1.3` — 2026-09-02 — Agent doc: Releases rule and the English-only language rule
+
+Marked echo of the single source at samirhvbr/repodocs. Two rules land here:
+
+1. The `version.md` of the default branch ON GITHUB is what the GitHub Releases
+   show, and a commit that bumps it is not finished until that version has a
+   tag, a Release and the `Latest` badge — same push, not "later".
+2. Everything in this repository is English (US): documents, commit messages,
+   pull requests, issues, code comments. The only carve-out is end-user-facing
+   product strings. History is not rewritten.
+
+Delimited by a marker, so re-running replaces instead of duplicating.
 
 ### `0.1.2` — 2026-09-02 — Regra de Releases no doc de agente: bump e Release sao um ato so
 
