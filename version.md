@@ -1,6 +1,6 @@
 # Versão — skill-RESUME
 
-**Versão atual:** `0.1.4`
+**Versão atual:** `0.1.5`
 
 > Este arquivo é a **fonte da verdade** da versão do projeto. Qualquer lugar que
 > precise exibir ou reportar a versão extrai o **primeiro número semver (`X.Y.Z`)**
