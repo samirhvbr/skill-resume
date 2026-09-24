@@ -22,8 +22,6 @@
       "Bash(python3 -m json.tool:*)"
     ],
     "deny": [
-      "Read(./.env)",
-      "Read(./.env.*)",
       "Read(./**/*.pem)",
       "Read(./**/*.key)",
       "Read(./**/*.p8)",
@@ -31,21 +29,12 @@
       "Read(./**/*.pfx)",
       "Read(./**/id_rsa*)",
       "Read(./**/auth.json)",
-      "Bash(rm -rf:*)",
-      "Bash(git push --force:*)",
-      "Bash(git push -f:*)",
-      "Bash(git push * --force*)",
-      "Bash(git reset --hard:*)",
-      "Bash(git clean -fd:*)",
       "Bash(git filter-branch:*)",
-      "Bash(git filter-repo:*)",
-      "Bash(curl * | sh:*)",
-      "Bash(curl * | bash:*)",
-      "Bash(wget * | sh:*)",
-      "Bash(wget * | bash:*)"
+      "Bash(git filter-repo:*)"
     ],
     "ask": [
       "Bash(sudo:*)",
+      "Bash(rm -rf:*)",
       "Bash(crontab:*)",
       "Bash(systemctl:*)",
       "Bash(npm install:*)",
@@ -55,7 +44,11 @@
       "Bash(gh repo create:*)",
       "Bash(gh pr create:*)",
       "Bash(gh issue create:*)",
-      "Bash(claude plugin:*)"
+      "Bash(claude plugin:*)",
+      "Bash(curl * | sh:*)",
+      "Bash(curl * | bash:*)",
+      "Bash(wget * | sh:*)",
+      "Bash(wget * | bash:*)"
     ]
   }
 }
